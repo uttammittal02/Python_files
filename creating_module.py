@@ -1,0 +1,16 @@
+import datetime
+today = datetime.datetime.now()
+mydate = datetime.date.today()
+mytime = datetime.time(hour = 12, minute = 40, second = 50)
+minutes = datetime.time(minute=18)
+date_time = datetime.datetime(year = 2002, month = 9, day = 4, hour = 6, minute = 40, second = 45, microsecond=34000)
+date_after_months = today - datetime.timedelta(days = 90)
+tday=datetime.date.today()
+bday=datetime.date(2017,9,18)
+t_day=bday-tday
+print(t_day.resolution)
+# print(mydate, mytime)
+# print(minutes)
+# print(date_time)
+# print(today.weekday())
+# print(date_after_months)
